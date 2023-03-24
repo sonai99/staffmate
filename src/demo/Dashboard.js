@@ -65,7 +65,6 @@ function Dashboard() {
       {isEditing && (
         <Edit employees={employees} selectedEmployee={selectedEmployee} setEmployees={setEmployees} setIsEditing={setIsEditing} />
       )}
-
     </div>
   )
 }
