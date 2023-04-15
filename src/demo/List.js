@@ -3,7 +3,7 @@ import React from 'react'
 function List({ employees, handleEdit, handleDelete }) {
 
     return (
-        <div class='relative overflow-x-auto ml-4'>
+        <div class='relative overflow-x-auto ml-4 mr-4'>
             <table class="w-full text-sm text-left">
                 <thead class="text-xs uppercase">
                     <tr>
@@ -14,7 +14,6 @@ function List({ employees, handleEdit, handleDelete }) {
                         <th class="px-6 py-3 border-b">Salary</th>
                         <th class="px-6 py-3 border-b">Date</th>
                         <th class="px-6 py-3 border-b" colSpan={2} >
-                            Actions
                         </th>
                     </tr>
                 </thead>
